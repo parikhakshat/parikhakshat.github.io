@@ -120,6 +120,7 @@
     top: 5%;
     width: 6px;
     margin-left: -3px;
+    background: #000000;
     }
 
 .hand.second {
@@ -127,5 +128,5 @@
     width: 2px;
     margin-left: -1px;
     top: 0;
-    background: #f9bd99
+    background: #f9bd99;
     }
