@@ -37,8 +37,9 @@ if (minute < 10 ) {
 
 if (hour > 12) {
 	prefix = "pm"
+	hour = hour - 12
 }
-hourHtml.innerHTML = hour -12
+hourHtml.innerHTML = hour
 minuteHtml.innerHTML = minute
 secondHtml.innerHTML = seconds
 prefixHtml.innerHTML = prefix
