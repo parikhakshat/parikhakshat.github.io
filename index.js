@@ -1,4 +1,5 @@
 let departures = ["17:50","12:50","09:50","03:50"]
+var date = new Date()
 
 function playAnimation() {
 	var animationHtml = document.querySelector('.animation');
@@ -22,7 +23,6 @@ function removeFunctionality() {
 }
 
 function setTime() {
-var date = new Date()
 var hour = date.getHours()
 var minute = date.getMinutes()
 var seconds = date.getSeconds()
@@ -50,6 +50,7 @@ var t = setTimeout(setTime,1000);
 
 
 function checkDepartures() {
+
 	var i;
 for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
@@ -61,7 +62,7 @@ if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getM
 	stopAnimation();
 }
 }
-var t = setTimeout(setTime,10000);
+var b = setTimeout(checkDepartures,10000);
 }
 
 
