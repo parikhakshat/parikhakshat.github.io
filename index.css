@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+    padding: 0px;
+    overflow-y : auto;
+    overflow-x: hidden;
+}
+
+.clock {
+	position: absolute;
+	left: 40%;
+	height: 5%;
+	width: 15%;
+	border: 5px solid black;
+	font-size: 30px;
+}
+
+#seconds {
+	position: relative;
+	display: flex;
+	top: 0%;
+	margin-right: 10px;
+	width: 20%;
+	float: left;
+}
+
+#hour {
+	position: relative;
+	display: flex;
+	float: left;
+	margin-right: 10px;
+	width: 20%;
+	margin-left: 3%;
+}
+
+#minutes {
+	position: relative;
+	display: flex;
+	width: 20%;
+	margin-right: 10px;
+	float: left;
+}
+
+#prefix {
+	position: relative;
+	display: flex;
+	margin-right: 10px;
+	width: 20%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.departures {
+	left: 35%;
+	display: flex;
+	position: absolute;
+	top: 7%;
+	border: 5px solid #4d4949
+}
+
+.animation {
+	position: absolute;
+	background-color: black;
+	width: 200px;
+	height: 200px;
+	top: 70%;
+}
+
+
+#active {
+	background-color: red;
+}
