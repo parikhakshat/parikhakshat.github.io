@@ -44,23 +44,28 @@ minuteHtml.innerHTML = minute
 secondHtml.innerHTML = seconds
 prefixHtml.innerHTML = prefix
 //console.log(date);
-var i;
+var t = setTimeout(setTime,1000);
+}
+
+
+
+function checkDepartures() {
+	var i;
 for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
-	//console.log(departures[0]);
-	//console.log(departures[1]);
+	console.log(departures[0]);
+	console.log(departures[1]);
 if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) > (parseInt(hoursandmin[1]) - 10) && parseInt(date.getMinutes()) < parseInt(hoursandmin[1])) {
 	playAnimation();
 } else {
 	stopAnimation();
 }
 }
-var t = setTimeout(setTime,1000);
+var t = setTimeout(setTime,10000);
 }
-
-
 
 
 $(document).ready(function(){
     setTime();
+	checkDepartures();
 })
