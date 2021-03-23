@@ -68,5 +68,8 @@ var b = setTimeout(checkDepartures,10000);
 
 $(document).ready(function(){
     setTime();
-	checkDepartures();
+})
+
+$(document).ready(function(){
+    checkDepartures();
 })
