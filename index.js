@@ -49,7 +49,7 @@ for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
 	//console.log(departures[0]);
 	//console.log(departures[1]);
-if (date.getHours()  == parseInt(hoursandmin[0]) && date.getMinutes() > (parseInt(departures[1]) - 10) && date.getMinutes() < parseInt(departures[1])) {
+if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) > (parseInt(departures[1]) - 10) && parseInt(date.getMinutes()) < parseInt(departures[1])) {
 	playAnimation();
 } else {
 	stopAnimation();
