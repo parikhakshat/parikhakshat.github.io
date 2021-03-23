@@ -12,7 +12,7 @@ function stopAnimation() {
 
 function testFunctionality() {
 	var date = new Date()
-	var full = date.getHours().toString() + ":" + (date.getMinutes() - 3).toString()
+	var full = date.getHours().toString() + ":" + (date.getMinutes() + 4).toString()
 	departures.push(full)
 	console.log(departures);
 }
@@ -49,7 +49,7 @@ for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
 	//console.log(departures[0]);
 	//console.log(departures[1]);
-if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) > (parseInt(departures[1]) - 10) && parseInt(date.getMinutes()) < parseInt(departures[1])) {
+if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) > (parseInt(hoursandmin[1]) - 10) && parseInt(date.getMinutes()) < parseInt(hoursandmin[1])) {
 	playAnimation();
 } else {
 	stopAnimation();
