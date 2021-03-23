@@ -10,6 +10,7 @@ body {
 	left: 40%;
 	height: 5%;
 	width: 15%;
+	min-width: 218px;
 	border: 5px solid black;
 	font-size: 30px;
 }
