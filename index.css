@@ -72,3 +72,11 @@ td, th {
 #active {
 	background-color: red;
 }
+button{
+	height:100px;
+}
+.pannel{
+	position:fixed;
+	bottom:0;
+	left:0;
+}
