@@ -5,6 +5,11 @@ function playAnimation() {
 	animationHtml.setAttribute('id','active');
 }
 
+function night() {
+	var animationHtml = document.querySelector('body');
+	animationHtml.setAttribute('id','night');
+}
+
 function stopAnimation() {
 	var animationHtml = document.querySelector('.animation');
 	animationHtml.removeAttribute('id');
@@ -38,6 +43,12 @@ if (minute < 10 ) {
 if (hour > 12) {
 	prefix = "pm"
 	hour = hour - 12
+}
+if (hour > 19) {
+	night()
+}
+if (hour < 7) {
+	night()
 }
 hourHtml.innerHTML = hour
 minuteHtml.innerHTML = minute
