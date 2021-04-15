@@ -80,3 +80,7 @@ button{
 	bottom:0;
 	left:0;
 }
+body{
+	background-color: #eea990; 
+ 	background-image: linear-gradient(#eea990, #f6e0b5);
+}
