@@ -102,10 +102,10 @@ body{
 	width: 100%;
 	background-color: #eea990; 
  	background-image: linear-gradient(#eea990, #f6e0b5);
-	animation-name:sunrise;
-	animation-duration: 20s;
+	/*animation-name:sunrise;
+	animation-duration: 20s;*/
 }
-@keyframes sunrise {
+/*@keyframes sunrise {
 	from{background-image: linear-gradient(#8d5273, #e8817f);}
 	to{background-image: linear-gradient(#eea990, #f6e0b5);}
-}
+}*/
