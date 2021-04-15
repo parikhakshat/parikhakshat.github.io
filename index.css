@@ -1,9 +1,9 @@
 body {
-	height:  100%;
-  margin: 0px;
-    padding: 0px;
-    overflow-y : auto;
-    overflow-x: hidden;
+	height:  1000px;
+	margin: 0px;
+	padding: 0px;
+	overflow-y : auto;
+	overflow-x: hidden;
 }
 
 .clock {
@@ -84,7 +84,7 @@ button{
 body{
 }
 #night{
-	height: 100%;
+	height: 1000px;
 	z-index: 0;
 	width: 100%;
 	background-color: #8d5273; 
@@ -97,11 +97,11 @@ body{
 	to{background-image: linear-gradient(#8d5273, #e8817f);}
 }
 #day{
-	height: 100%;
+	height: 1000px;
 	z-index: 0;
 	width: 100%;
 	background-color: #eea990; 
- 	background-image: linear-gradient(#eea990, #f6e0b5);
+ 	background-image: linear-gradient(#f6e0b5, #eea990);
 	/*animation-name:sunrise;
 	animation-duration: 20s;*/
 }
