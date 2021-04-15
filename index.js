@@ -52,6 +52,7 @@ if (hour > 12) {
 	
 if (hour >= 18 || hour <= 4) {
 	night();
+	console.log(hour);
 } else {
 	day();
 }
