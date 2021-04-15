@@ -1,4 +1,5 @@
 body {
+	height:1000px
   margin: 0px;
     padding: 0px;
     overflow-y : auto;
@@ -94,7 +95,6 @@ body{
 	to{background-image: linear-gradient(#8d5273, #e8817f);}
 }
 #day{
-	
 	height: 1000px;
 	background-color: #eea990; 
  	background-image: linear-gradient(#eea990, #f6e0b5);
