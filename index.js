@@ -45,16 +45,16 @@ if (minute < 10 ) {
 	minute  = "0" + minute.toString()
 }
 
-if (hour > 12) {
-	prefix = "pm"
-	hour = hour - 12
-}
-	
 if (hour >= 18 || hour <= 4) {
 	night();
 	console.log(hour);
 } else {
 	day();
+}	
+	
+if (hour > 12) {
+	prefix = "pm"
+	hour = hour - 12
 }
 	
 hourHtml.innerHTML = hour
