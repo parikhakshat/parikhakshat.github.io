@@ -50,6 +50,12 @@ if (hour > 12) {
 	hour = hour - 12
 }
 	
+if (hour >= 18 || hour <= 4) {
+	night();
+} else {
+	day();
+}
+	
 hourHtml.innerHTML = hour
 minuteHtml.innerHTML = minute
 secondHtml.innerHTML = seconds
