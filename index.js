@@ -43,11 +43,6 @@ if (minute < 10 ) {
 if (hour > 12) {
 	prefix = "pm"
 	hour = hour - 12
-}
-if (hour > 19) {
-	night()
-}
-if (hour < 7) {
 	night()
 }
 hourHtml.innerHTML = hour
