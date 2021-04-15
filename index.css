@@ -89,4 +89,10 @@ body{
 	height: 1000px;
 	background-color: #8d5273; 
  	background-image: linear-gradient(#8d5273, #e8817f);
+	animation-name:sunset;
+	animation-duration: 20s;
+}
+@keyframes sunset {
+	from{background-image: linear-gradient(#eea990, #f6e0b5);}
+	to{background-image: linear-gradient(#8d5273, #e8817f);}
 }
