@@ -81,7 +81,7 @@ button{
 	left:0;
 }
 body{
-	height: 100px;
+	height: 1000px;
 	background-color: #eea990; 
- 	background-image: linear-gradient(black, #f6e0b5);
+ 	background-image: linear-gradient(#eea990, #f6e0b5);
 }
