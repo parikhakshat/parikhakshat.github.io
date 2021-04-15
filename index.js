@@ -10,6 +10,11 @@ function night() {
 	animationHtml.setAttribute('id','night');
 }
 
+function day() {
+	var animationHtml = document.querySelector('body');
+	animationHtml.setAttribute('id','day');
+}
+
 function stopAnimation() {
 	var animationHtml = document.querySelector('.animation');
 	animationHtml.removeAttribute('id');
@@ -45,8 +50,11 @@ if (hour > 12) {
 	hour = hour - 12
 }
 if (hour >= 18 || hour =< 4) {
-	night()
+	night();
+} else {
+	day();
 }
+	
 hourHtml.innerHTML = hour
 minuteHtml.innerHTML = minute
 secondHtml.innerHTML = seconds
