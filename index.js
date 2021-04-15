@@ -64,7 +64,7 @@ console.log(date);
 var i;
 for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
-	console.log(hoursandmin[0] + "fire" + hoursandmin[1]);
+	//console.log(hoursandmin[0] + "fire" + hoursandmin[1]);
 	console.log(departures[i]);
 if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) > (parseInt(hoursandmin[1]) - 10) && parseInt(date.getMinutes()) < parseInt(hoursandmin[1])) {
 	playAnimation();
