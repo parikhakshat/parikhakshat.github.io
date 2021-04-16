@@ -77,11 +77,9 @@ button{
 	height:100px;
 }
 .pannel{
-	position:absolute;
+	position:fixed;
 	bottom:0;
-	left:0;
-}
-body{
+	right:0;
 }
 #night{
 	height: 1000px;
