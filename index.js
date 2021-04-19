@@ -8,11 +8,29 @@ function playAnimation() {
 function night() {
 	var animationHtml = document.querySelector('body');
 	animationHtml.setAttribute('id','night');
+	
+	var animationHtml = document.getElementById('clouds');
+	animationHtml.setAttribute('src','images/night clouds.png');
+
+	var animationHtml = document.getElementById('mountains');
+	animationHtml.setAttribute('src','images/night mountains.png');
+
+	var animationHtml = document.getElementById('airport');
+	animationHtml.setAttribute('src','images/night airport.png');
 }
 
 function day() {
 	var animationHtml = document.querySelector('body');
 	animationHtml.setAttribute('id','day');
+	
+	var animationHtml = document.getElementById('clouds');
+	animationHtml.setAttribute('src','images/day clouds.png');
+
+	var animationHtml = document.getElementById('mountains');
+	animationHtml.setAttribute('src','images/day mountains.png');
+
+	var animationHtml = document.getElementById('airport');
+	animationHtml.setAttribute('src','images/day airport.png');
 }
 
 function stopAnimation() {
