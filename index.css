@@ -95,3 +95,19 @@ button{
 	background-color: #eea990; 
  	background-image: linear-gradient(#f6e0b5, #eea990);
 }
+.clouds{
+	width:1920px;
+	position:absolute;
+	top:20px;
+}
+.mountains{
+	width:1920px;
+	position: absolute;
+	left:0px;
+	bottom:30px;
+}
+.airport{
+	width: 1920px;
+	position:absolute;
+	bottom:0px;
+}
