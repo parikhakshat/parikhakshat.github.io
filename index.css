@@ -99,6 +99,7 @@ button{
 	width:1920px;
 	position:absolute;
 	top:20px;
+	z-index: -1;
 }
 .mountains{
 	width:1920px;
