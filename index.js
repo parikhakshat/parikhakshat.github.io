@@ -1,6 +1,7 @@
 let departures = ["17:50","12:50","09:50","03:50"]
 
 function playAnimation() {
+	console.log("playing");
 	var animationHtml = document.querySelector('.animation');
 	animationHtml.setAttribute('id','active');
 }
