@@ -10,13 +10,13 @@ function night() {
 	animationHtml.setAttribute('id','night');
 	
 	var animationHtml = document.getElementById('clouds');
-	animationHtml.setAttribute('src','images/night clouds.png');
+	animationHtml.setAttribute('src','images/night-clouds.png');
 
 	var animationHtml = document.getElementById('mountains');
-	animationHtml.setAttribute('src','images/night mountain.png');
+	animationHtml.setAttribute('src','images/night-mountain.png');
 
 	var animationHtml = document.getElementById('airport');
-	animationHtml.setAttribute('src','images/night airport.png');
+	animationHtml.setAttribute('src','images/night-airport.png');
 }
 
 function day() {
@@ -24,13 +24,13 @@ function day() {
 	animationHtml.setAttribute('id','day');
 	
 	var animationHtml = document.getElementById('clouds');
-	animationHtml.setAttribute('src','images/day clouds.png');
+	animationHtml.setAttribute('src','images/day-clouds.png');
 
 	var animationHtml = document.getElementById('mountains');
-	animationHtml.setAttribute('src','images/day mountains.png');
+	animationHtml.setAttribute('src','images/day-mountains.png');
 
 	var animationHtml = document.getElementById('airport');
-	animationHtml.setAttribute('src','images/day airport.png');
+	animationHtml.setAttribute('src','images/day-airport.png');
 }
 
 function stopAnimation() {
