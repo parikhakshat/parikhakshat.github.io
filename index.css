@@ -98,14 +98,14 @@ button{
 	margin-right: 4%;
 }
 #night{
-	height: 1000px;
+	height: 100vh;
 	z-index: 0;
 	width: 100%;
 	background-color: #8d5273; 
  	background-image: linear-gradient(#8d5273, #e8817f);
 }
 #day{
-	height: 1000px;
+	height: 100vh;
 	z-index: 0;
 	width: 100%;
 	background-color: #eea990; 
