@@ -13,7 +13,7 @@ function night() {
 	animationHtml.setAttribute('src','images/night clouds.png');
 
 	var animationHtml = document.getElementById('mountains');
-	animationHtml.setAttribute('src','images/night mountains.png');
+	animationHtml.setAttribute('src','images/night mountain.png');
 
 	var animationHtml = document.getElementById('airport');
 	animationHtml.setAttribute('src','images/night airport.png');
