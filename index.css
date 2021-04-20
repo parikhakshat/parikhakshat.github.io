@@ -1,5 +1,4 @@
 body {
-	height:  1000px;
 	margin: 0px;
 	padding: 0px;
 	overflow-y : auto;
@@ -11,8 +10,10 @@ body {
 	height: 5%;
 	width: 15%;
 	min-width: 218px;
-	border: 5px solid black;
-	font-size: 30px;
+	border: 3px solid white;
+	font-size: 40px;
+	text-align: center;
+	color: white;
 }
 
 #seconds {
@@ -28,7 +29,7 @@ body {
 	position: relative;
 	display: flex;
 	float: left;
-	margin-right: 10px;
+	margin-right: 5px;
 	width: 20%;
 	margin-left: 3%;
 }
@@ -49,36 +50,51 @@ body {
 }
 
 td, th {
-	border: 1px solid #dddddd;
+	border: 3px solid #dddddd;
   text-align: left;
   padding: 8px;
+  color: white;
 }
 
 .departures {
 	margin:0 auto;
 	top: 7%;
 	width:240px;
-	border: 5px solid #4d4949
 }
 
 .animation {
 	position: absolute;
-	background-color: black;
-	width: 200px;
+	background-image: url("images/night\ plane.png");
+	width: 300px;
 	height: 200px;
-	top: 70%;
+	bottom: 50px;
+	left: -300px;
+	animation-name: yuh;
+	animation-duration: 16s;
+	animation-delay: initial;
+	animation-iteration-count: initial;
+	animation-timing-function: linear;
 }
+@keyframes yuh {
+	0%   {bottom:50px; left:-300px;}
+	20%  {bottom:50px; left:400px;}
+	40%  {bottom:100px; left:900px;}
+	60%  {bottom:400px; left:1400px;}
+	80%  {bottom:700px; left:1900px;}
+	90% {bottom:800px; left:2200px;}
+	100% {bottom:800px; left:2200px;}
 
 
+}
 #active {
-	background-color: red;
+	;
 }
 button{
 	height:100px;
 }
 .pannel{
 	position:fixed;
-	bottom:0;
+	top:0;
 	right:0;
 }
 #night{
@@ -102,7 +118,8 @@ button{
 	z-index: -1;
 }
 .mountains{
-	width:1920px;
+	height: 100%;
+	width:100%;
 	position: absolute;
 	left:0px;
 	bottom:30px;
@@ -112,3 +129,28 @@ button{
 	position:absolute;
 	bottom:0px;
 }
+  .pannel button{
+	height: 50px;
+	width: 170px;
+	background: rgb(225, 147, 154);
+	color: white;
+	font-size: 1rem;
+	border: none;
+	margin: -5px; 
+	padding: 0;
+	outline: rgb(225, 147, 154);
+  }
+  .pannel :nth-child(1){
+	border-radius: 20px 0 0 20px;
+  }
+  .pannel :nth-child(4){
+	border-radius: 0 20px 20px 0;
+  }
+  button:hover{
+	cursor: pointer;
+	filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+  }
+  button:active{
+	filter: none;
+	transform: scale(.95);
+  }
