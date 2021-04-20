@@ -92,7 +92,7 @@ button{
 	height:100px;
 }
 .pannel{
-	position:fixed;
+	position:absolute;
 	bottom: 0;
 	right:0;
 }
