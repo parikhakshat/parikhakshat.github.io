@@ -69,11 +69,6 @@ td, th {
 	height: 200px;
 	bottom: 50px;
 	left: -300px;
-	animation-name: yuh;
-	animation-duration: 16s;
-	animation-delay: initial;
-	animation-iteration-count: initial;
-	animation-timing-function: linear;
 }
 @keyframes yuh {
 	0%   {bottom:50px; left:-300px;}
@@ -87,7 +82,11 @@ td, th {
 
 }
 #active {
-	;
+	animation-name: yuh;
+	animation-duration: 16s;
+	animation-delay: initial;
+	animation-iteration-count: initial;
+	animation-timing-function: linear;
 }
 button{
 	height:100px;
