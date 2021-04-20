@@ -90,7 +90,7 @@ for (i = 0; i < departures.length; i++) {
 	console.log("array hour"+parseInt(hoursandmin[0]));
 	console.log("Date minute"+parseInt(date.getMinutes()));
 	console.log("array minute"+parseInt(hoursandmin[1]));
-if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) >= (parseInt(hoursandmin[1]) - 10) && parseInt(date.getMinutes()) =< parseInt(hoursandmin[1])) {
+if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) >= (parseInt(hoursandmin[1]) - 10) && parseInt(date.getMinutes()) <= parseInt(hoursandmin[1])) {
 	playAnimation();
 } else {
 	stopAnimation();
