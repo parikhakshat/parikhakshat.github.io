@@ -93,8 +93,9 @@ button{
 }
 .pannel{
 	position:absolute;
-	bottom: 0;
+	top: 0;
 	right:0;
+	margin-right: 4%;
 }
 #night{
 	height: 1000px;
