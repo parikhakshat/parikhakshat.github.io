@@ -64,7 +64,7 @@ td, th {
 
 .animation {
 	position: absolute;
-	background-image: url("images/night-plane.png");
+	background-image: url("images/day-plane.png");
 	width: 300px;
 	height: 200px;
 	bottom: 50px;
