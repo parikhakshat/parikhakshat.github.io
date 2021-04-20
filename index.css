@@ -70,7 +70,7 @@ td, th {
 	bottom: 50px;
 	left: -300px;
 }
-@keyframes yuh {
+@keyframes fly {
 	0%   {bottom:50px; left:-300px;}
 	20%  {bottom:50px; left:400px;}
 	40%  {bottom:100px; left:900px;}
@@ -82,10 +82,10 @@ td, th {
 
 }
 #active {
-	animation-name: yuh;
+	animation-name: fly;
 	animation-duration: 16s;
 	animation-delay: initial;
-	animation-iteration-count: initial;
+	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
 button{
