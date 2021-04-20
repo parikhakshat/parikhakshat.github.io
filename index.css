@@ -93,19 +93,19 @@ button{
 }
 .pannel{
 	position:absolute;
-	top: 0;
+	bottom: 0;
 	right:0;
 	margin-right: 4%;
 }
 #night{
-	height: 100vh;
+	height: 1000px;
 	z-index: 0;
 	width: 100%;
 	background-color: #8d5273; 
  	background-image: linear-gradient(#8d5273, #e8817f);
 }
 #day{
-	height: 100vh;
+	height: 1000px;
 	z-index: 0;
 	width: 100%;
 	background-color: #eea990; 
