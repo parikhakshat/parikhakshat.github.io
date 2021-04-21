@@ -1,4 +1,4 @@
-let departures = ["17:50","12:50","09:50","03:50"]
+let departures = ["20:50","12:50","9:50","3:50"]
 
 function playAnimation() {
 	console.log("playing");
