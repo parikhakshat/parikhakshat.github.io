@@ -1,7 +1,7 @@
 let departures = ["20:50","12:50","9:50","3:50"]
 
 function playAnimation() {
-	console.log("playing");
+	//console.log("playing");
 	var animationHtml = document.querySelector('.animation');
 	animationHtml.setAttribute('id','active');
 }
@@ -86,10 +86,10 @@ for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
 	//console.log(hoursandmin[0] + "fire" + hoursandmin[1]);
 	//console.log(departures[i]);
-	console.log("Date hour"+parseInt(date.getHours()));
-	console.log("array hour"+parseInt(hoursandmin[0]));
-	console.log("Date minute"+parseInt(date.getMinutes()));
-	console.log("array minute"+parseInt(hoursandmin[1]));
+	//console.log("Date hour"+parseInt(date.getHours()));
+	//console.log("array hour"+parseInt(hoursandmin[0]));
+	//console.log("Date minute"+parseInt(date.getMinutes()));
+	//console.log("array minute"+parseInt(hoursandmin[1]));
 if (parseInt(date.getHours())  == parseInt(hoursandmin[0]) && parseInt(date.getMinutes()) >= (parseInt(hoursandmin[1]) - 10) && parseInt(date.getMinutes()) <= parseInt(hoursandmin[1])) {
 	playAnimation();
 } else {
