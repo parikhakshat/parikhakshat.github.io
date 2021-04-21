@@ -83,7 +83,7 @@ td, th {
 }
 #active {
 	animation-name: fly;
-	animation-duration: 12s;
+	animation-duration: 14s;
 	animation-delay: initial;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
