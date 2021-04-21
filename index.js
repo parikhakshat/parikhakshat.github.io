@@ -66,7 +66,7 @@ if (minute < 10 ) {
 
 if (hour >= 18 || hour <= 4) {
 	night();
-	console.log(hour);
+	//console.log(hour);
 } else {
 	day();
 }	
@@ -80,7 +80,7 @@ hourHtml.innerHTML = hour
 minuteHtml.innerHTML = minute
 secondHtml.innerHTML = seconds
 prefixHtml.innerHTML = prefix
-console.log(date);
+//console.log(date);
 var i;
 for (i = 0; i < departures.length; i++) {
 	var hoursandmin = departures[i].split(":");
